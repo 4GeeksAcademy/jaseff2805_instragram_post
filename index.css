@@ -1,0 +1,84 @@
+
+/* Definición de Estilos Generales */
+body{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+}
+/* Estilo de la Tarjera */
+.card{
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* Oculta cualquier contenido que se salga del área visible del contenedor sin mostrar barras de desplazamiento */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2); /* Sombra para el mejoramiento visual */
+}
+/* Encabezado de la Tarjeta */
+.card-header{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/* Encabezado Izquiero */
+.card-header-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-header-left .title{
+    font-weight: bold;
+    margin: 0;
+}
+.card-header-left i{
+    font-size: 25px;
+    margin: 0;
+}
+.card-header-left .subtitle{
+    font-size: 12px;
+    color: gray;
+    margin:0;
+}
+/* Encabezado Derecho */
+.card-header-right{
+    font-size: 15px;
+}
+/* Imagenes */
+.card-image img{
+    width: 100%;
+    display: block;
+}
+/* Div de íconos/acciones */
+.card-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+/* Div de íconos/acciones */
+.card-actions i{
+    margin-right: 10px;
+}
+.bookmark{
+    margin-left: auto;
+}
+/* Div - Likes -  */
+.likes{
+    font-size: 14px;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+/* Descripción  */
+.card-description{
+    font-size: 14px;
+    padding: 0 10px 10px 10px;
+}
